@@ -1,3 +1,28 @@
 #main {
     background-color: lavender;
+    padding: 30px;
+    margin: 50px;
+}
+
+#content {
+    background-color: #6b5acd;
+    border: 5px solid darkblue;
+    margin: 20px 0px;
+    padding: 20px;
+}
+
+div {
+    margin: 16px 0px;
+}
+
+#content > div {
+    margin: 16px;
+}
+
+.quote {
+    padding-left: 36px;
+}
+
+.quoteCitation {
+    margin: 36px;
 }
