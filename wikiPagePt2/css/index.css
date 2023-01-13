@@ -1,4 +1,50 @@
 #main{
-    margin: 20px;
-    font-size:36px;
+    margin: 10px;
+    font-size:18px;
+}
+
+img{
+    height: 280px;
+    margin-left: 25.5px;
+    margin-right: 25.5px;
+    position: relative;
+    width: 220px;
+}
+
+#ghTitle{
+    margin-left: 30%
+}
+
+#grahamHancock{
+    background-color: #f8f9fa;
+    border: 1px solid #a2a9b1;
+    float: right;
+    font-size:14px;
+    height: 575px;
+    margin: 10px;
+    width: 271px
+}
+
+#hancock2010{
+    margin-left: 34%;
+    position: relative;
+    font-size: 12px;
+}
+
+.sideBySide{
+    margin: 8px;
+}
+
+#tableOfContents{
+    background-color: #f8f9fa;
+    border: 1px solid #a2a9b1;
+    color: blue;
+    float: left;
+    margin: 10px
+}
+
+#contents{
+    color: black;
+    margin-left: 36%;
+    text-decoration: underline;
 }
