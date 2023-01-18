@@ -12,14 +12,14 @@ img{
 }
 
 #ghTitle{
-    margin-left: 30%
+    text-align: center;
 }
 
 #grahamHancock{
     background-color: #f8f9fa;
     border: 1px solid #a2a9b1;
     float: right;
-    font-size:14px;
+    font-size: 13px;
     height: 575px;
     margin: 10px;
     width: 271px
@@ -31,8 +31,19 @@ img{
 }
 
 .sideBySide{
+    display: flex;
     margin: 8px;
 }
+
+.sideBySide span {
+text-align: left;
+}
+
+.sideBySide span:first-child {
+font-weight: bold;
+width: 100px;
+}
+
 
 #tableOfContents{
     background-color: #f8f9fa;
