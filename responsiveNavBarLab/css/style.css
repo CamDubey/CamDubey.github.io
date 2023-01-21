@@ -1,5 +1,13 @@
-main img{
-    width: 100%; 
+body{
+    background-color: whitesmoke;
+    margin: 0;
+}
+
+#hero {
+    width: 100%;
+    max-height: 500px;
+    object-fit: cover;
+    object-position: 50% 25%;
 }
 
 nav {
@@ -15,6 +23,8 @@ nav > ul {
     display: flex;
     justify-content: center;
     list-style-type: none;
+    margin: 0px auto;
+    max-width: 1000px;
     padding: 0px;
 }
 
@@ -71,10 +81,20 @@ main {
     height: 1500px;
 }
 
+h1 {
+    text-align: center;
+    font-family: sans-serif;
+}
+
+h3 {
+    text-align: center;
+}
+
 .textAndImage {
     align-items: center;
     display: flex;
-    margin: 24px;
+    margin: 24px auto;
+    max-width: 1000px;
 }
 
 .textBlock {
@@ -91,6 +111,34 @@ main {
     width: 100%;
 }
 
+.shopSec {
+    align-items: center;
+    display: flex;
+    margin: 24px auto;
+    max-width: 1000px;
+}
+
+.shopText{
+    flex: 2;
+    margin: 24px;
+}
+
+.shopImage {
+    flex: 1;
+}
+
+.shopImage img {
+    border-radius: 24px;
+    width: 100%;
+}
+
+#styling img{
+    display: flex;
+    margin: 24px auto;
+    width: 80%;
+    justify-content: center;
+}
+
 @media screen and (max-width: 768px) {
     nav > ul{
         flex-direction: column;
@@ -103,7 +151,7 @@ main {
     }
 
    nav > ul > li:first-child {
-        margin-right: inherit; 
+        margin-right: 0px; 
     }
 
     .textAndImage {
