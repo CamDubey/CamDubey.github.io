@@ -38,6 +38,8 @@ nav > ul > li:first-child {
     margin-right: auto;
 }
 
+
+
 nav > ul > li:hover {
     background-color: rgb(54, 54, 54)
 }
@@ -135,7 +137,7 @@ h3 {
 #styling img{
     display: flex;
     margin: 24px auto;
-    width: 80%;
+    width: 800px;
     justify-content: center;
 }
 
