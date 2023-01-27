@@ -35,6 +35,7 @@ form label {
 }
 
 form input[type=text],
+form input[type=email],
 form textarea,
 form select {
     padding: 12px;
@@ -52,4 +53,54 @@ form input[type=submit] {
     border-radius: 4px;
     color: white;
     padding: 16px 24px;
+}
+
+input:not(:focus):not(:placeholder-shown):invalid[type=text] {
+    border: 3px solid red;
+    box-shadow: 0px 0px 16px red;
+    animation: invalidWiggle 0.5s infinite;
+}
+
+input:not(:focus):not(:placeholder-shown):invalid[type=email] {
+    animation: invalidSpin 2s 1;
+}
+
+@keyframes invalidSpin {
+    25% {
+        transform: rotateX(90deg);
+    }
+
+    50% {
+        transform: rotateX(180deg);
+    }
+
+    75% {
+        transform: rotateX(270deg);
+        border: 3px solid red;
+        box-shadow: 0px 0px 16px red;
+    }
+
+     100% {
+        transform: rotateX(360deg);
+        border: 3px solid red;
+        box-shadow: 0px 0px 16px red;
+    }
+}
+
+@keyframes invalidWiggle {
+    0% {
+        transform: translateX(0px);
+    }
+
+    25% {
+        transform: translateX(-15px);
+    }
+
+    75% {
+        transform: translateX(15px);
+    }
+
+    100% {
+        transform: translateX(0px);
+    }
 }
