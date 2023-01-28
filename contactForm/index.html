@@ -22,7 +22,7 @@
                 <form
                     action="https://getform.io/f/15336c40-a265-4745-b443-ad17c086d011"
                     method="POST">
-                    <label>What can we help you with?</label>
+                    <label>What can we help you with? <span>*</span></label>
                     <select name="questionType">
                         <option value="" disabled selected>-- Select what we can help you with --</option>
                         <option value="commission">Commission</option>
@@ -30,25 +30,43 @@
                         <option value="websiteDesign">Website Design</option>
                         <option value="adRemoval">Need a break from ads</option>
                     </select>
-                    <label>Surname</label>
-                    <select name="surnameSelection">
+                    <label>Honorific</label>
+                    <select name="honorificSelection">
                         <option value="">-- Please Select --</option>
                         <option value="Mr.">Mr.</option>
                         <option value="Mrs.">Mrs.</option>
                         <option value="Ms.">Ms.</option>
                         <option value="Dr.">Dr.</option>
                     </select>
-                    <label>First Name</label>
-                    <input type="text" name="firstName" minlength="2" maxlength="20">
-                    <label>Last Name</label>
-                    <input type="text" name="lastName">
-                    <label>Email</label>
-                    <input type="email" name="email">
+                    <label>First Name <span>*</span></label>
+                    <input  type="text"
+                            name="firstName" 
+                            minlength="2" 
+                            maxlength="20"
+                            placeholder="John"
+                            required>
+                    <label>Last Name <span>*</span></label>
+                    <input 
+                        type="text" 
+                        name="lastName"
+                        minlength="2"
+                        maxlength="30"
+                        placeholder="Doe"
+                        required>
+                    <label>Email <span>*</span></label>
+                    <input 
+                        type="email" 
+                        name="email"
+                        required
+                        placeholder="email@abc.com">
                     <label>Message</label>
                     <textarea 
                         name="message" 
                         placeholder="Type your message here..."></textarea>
-                    <input type="submit" name="send" value="Send">
+                    <button 
+                        type="submit">
+                            Send
+                    </button>
                 </form>
             </div>
         </section>

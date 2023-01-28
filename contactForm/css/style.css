@@ -34,6 +34,10 @@ form label {
     margin: 8px 0px;
 }
 
+span {
+    color: red;
+}
+
 form input[type=text],
 form input[type=email],
 form textarea,
@@ -43,16 +47,23 @@ form select {
     margin-bottom: 16px;
 }
 
-textarea::placeholder {
+textarea::placeholder,
+input::placeholder {
     color: lightgrey;
 }
 
-form input[type=submit] {
+form button[type=submit] {
     background-color: #2c8cff;
     border: 0;
     border-radius: 4px;
     color: white;
     padding: 16px 24px;
+}
+
+input:not(:focus):not(:placeholder-shown):invalid {
+    border: 3px solid red;
+    box-shadow: 0px 0px 16px red;
+    animation: invalidWiggle 0.5s infinite;
 }
 
 input:not(:focus):not(:placeholder-shown):invalid[type=text] {
@@ -63,6 +74,8 @@ input:not(:focus):not(:placeholder-shown):invalid[type=text] {
 
 input:not(:focus):not(:placeholder-shown):invalid[type=email] {
     animation: invalidSpin 2s 1;
+    border: 3px solid red;
+    box-shadow: 0px 0px 16px red;
 }
 
 @keyframes invalidSpin {
@@ -80,7 +93,7 @@ input:not(:focus):not(:placeholder-shown):invalid[type=email] {
         box-shadow: 0px 0px 16px red;
     }
 
-     100% {
+     100%, 0% {
         transform: rotateX(360deg);
         border: 3px solid red;
         box-shadow: 0px 0px 16px red;
@@ -102,5 +115,14 @@ input:not(:focus):not(:placeholder-shown):invalid[type=email] {
 
     100% {
         transform: translateX(0px);
+    }
+}
+
+@media screen and (max-width: 600px) {
+    #gridContainer {
+        grid-template-columns: 1fr;
+        grid-template-areas: 
+            "header"
+            "content";
     }
 }
