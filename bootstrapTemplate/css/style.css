@@ -54,6 +54,12 @@ footer ul {
   padding: 0;
 }
 
+.glider {
+  background-image: url("../assets/images/abstractBackground.jpg");
+  background-attachment: fixed;
+  height: 600px;
+}
+
 /****************************************************************************
   Grid styles
 ****************************************************************************/
@@ -148,8 +154,10 @@ nav h2 {
   background-position: center;
   background-size: cover;
   color: white;
-  height: 80vh;
-  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 40vh;
 }
 
 /****************************************************************************
@@ -202,6 +210,7 @@ nav h2 {
 ****************************************************************************/
 #gallery {
   text-align: center;
+  height: 1000px
 }
 
 /****************************************************************************
