@@ -1,0 +1,15 @@
+#hero {
+    background-image: url(../assets/images/abstractBackground.jpg);
+    background-attachment: fixed;
+    background-size: cover;
+    color: white;
+    height: 400px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#hero h1 {
+    font-size: 48px;
+    text-align: center;
+}
