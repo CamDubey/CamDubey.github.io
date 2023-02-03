@@ -13,3 +13,11 @@
     font-size: 48px;
     text-align: center;
 }
+
+a:hover img {
+    transition: opacity 0.5s
+}
+
+a:hover img {
+    opacity: 0.8;
+}
