@@ -39,7 +39,6 @@ a {
 }
 
 nav img {
-    position: absolute;
     width: 125px;
     top: 0;
     left: 0;
@@ -53,7 +52,7 @@ footer a {
 
 nav a:hover,
 footer a:hover {
-  color: #e1a177;
+  color: black;
   text-decoration: underline;
 }
 
@@ -62,7 +61,7 @@ footer ul {
 }
 
 .glider {
-  background-image: url("../assets/images/foxes.jpg");
+  background-image: url("../assets/images/foxesImg.jpg");
   background-position: center;
   background-size: cover;
   background-attachment: fixed;
@@ -71,6 +70,9 @@ footer ul {
 
 #header {
     margin: 25px;
+}
+.carousel-item {
+    max-height: 380px;
 }
 
 /****************************************************************************
