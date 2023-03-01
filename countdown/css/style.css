@@ -1,0 +1,30 @@
+body {
+    margin: 0;
+}
+
+#hero {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-image: url("../assets/images/background.jpg");
+    background-size: cover;
+    background-position: center center;
+}
+
+#hero h1 {
+    font-size: 60px;
+    border: darkgreen dashed 4px;
+    padding: 10px;
+}
+
+#hero h2 {
+    font-size: 36px;
+    color: #008b51;
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+#hero img {
+    height: 250px;
+}
