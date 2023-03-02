@@ -26,6 +26,25 @@ coffeeImage4.onclick = openLightbox;
 let coffeeImage5 = document.getElementById("coffeeImage5");
 coffeeImage5.onclick = openLightbox;
 
+let coffeeImage6 = document.getElementById("coffeeImage6");
+coffeeImage6.onclick = openLightbox;
+
+let coffeeImage7 = document.getElementById("coffeeImage7");
+coffeeImage7.onclick = openLightbox;
+
+let coffeeImage8 = document.getElementById("coffeeImage8");
+coffeeImage8.onclick = openLightbox;
+
+let coffeeImage9 = document.getElementById("coffeeImage9");
+coffeeImage9.onclick = openLightbox;
+
+let coffeeImage10 = document.getElementById("coffeeImage10");
+coffeeImage10.onclick = openLightbox;
+
+let coffeeImage11 = document.getElementById("coffeeImage11");
+coffeeImage11.onclick = openLightbox;
+
+
 function closeLightbox() {
     lightboxContainer.classList.remove("display");
     lightbox.src = "";
