@@ -61,3 +61,8 @@ button,input[type=text] {
     margin-top: 12px;
     justify-content: center;
 }
+
+#subtractButton {
+    margin-top: 12px;
+    justify-content: center;
+}
