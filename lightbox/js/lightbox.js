@@ -11,38 +11,38 @@ function openLightbox() {
     lightbox.src = this.src;
 }
 
-let coffeeImage = document.getElementById("coffeeImage");
-coffeeImage.onclick = openLightbox;
+let fruitBowl = document.getElementById("fruitBowl");
+fruitBowl.onclick = openLightbox;
 
-let coffeeImage2 = document.getElementById("coffeeImage2");
-coffeeImage2.onclick = openLightbox;
+let pastries = document.getElementById("pastries");
+pastries.onclick = openLightbox;
 
-let coffeeImage3 = document.getElementById("coffeeImage3");
-coffeeImage3.onclick = openLightbox;
+let alley = document.getElementById("alley");
+alley.onclick = openLightbox;
 
-let coffeeImage4 = document.getElementById("coffeeImage4");
-coffeeImage4.onclick = openLightbox;
+let bottles = document.getElementById("bottles");
+bottles.onclick = openLightbox;
 
-let coffeeImage5 = document.getElementById("coffeeImage5");
-coffeeImage5.onclick = openLightbox;
+let berries = document.getElementById("berries");
+berries.onclick = openLightbox;
 
-let coffeeImage6 = document.getElementById("coffeeImage6");
-coffeeImage6.onclick = openLightbox;
+let horse = document.getElementById("horse");
+horse.onclick = openLightbox;
 
-let coffeeImage7 = document.getElementById("coffeeImage7");
-coffeeImage7.onclick = openLightbox;
+let flowers = document.getElementById("flowers");
+flowers.onclick = openLightbox;
 
-let coffeeImage8 = document.getElementById("coffeeImage8");
-coffeeImage8.onclick = openLightbox;
+let couch = document.getElementById("couch");
+couch.onclick = openLightbox;
 
-let coffeeImage9 = document.getElementById("coffeeImage9");
-coffeeImage9.onclick = openLightbox;
+let door = document.getElementById("door");
+door.onclick = openLightbox;
 
-let coffeeImage10 = document.getElementById("coffeeImage10");
-coffeeImage10.onclick = openLightbox;
+let lighthouse = document.getElementById("lighthouse");
+lighthouse.onclick = openLightbox;
 
-let coffeeImage11 = document.getElementById("coffeeImage11");
-coffeeImage11.onclick = openLightbox;
+let taxi = document.getElementById("taxi");
+taxi.onclick = openLightbox;
 
 
 function closeLightbox() {
