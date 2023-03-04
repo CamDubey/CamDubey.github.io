@@ -43,7 +43,6 @@ function openLightbox() {
 
 // let taxi = document.getElementById("taxi");
 // taxi.onclick = openLightbox;
-debugger;
 
 let galleryImages = document.getElementsByClassName("galleryImage");
 
