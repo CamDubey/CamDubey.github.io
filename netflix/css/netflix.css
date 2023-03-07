@@ -1,0 +1,47 @@
+#banner {
+    display: flex;
+    flex-direction: row;
+    height: 50px;
+}
+
+#header{
+    display: flex;
+    margin-right: 24px;
+    padding: 24px;
+}
+
+#main {
+    background-image: url(../assets/images/background.jpeg);
+    background-position: center center;
+    background-size: cover;
+    height: 750px;
+    position: relative;
+}
+
+#logo {
+    margin-right: auto;
+    height: 50px;
+}
+
+#signIn{
+    display: flex;
+    background-color: #e50914;
+    color: white;
+    align-items: center;
+    height: 25px;
+    padding: 6px;
+    border-radius: 15%;
+}
+
+#dropdown{
+    background-color: black;
+    color: white;
+    border: 1px solid white;
+    padding: 6px;
+}
+
+#focus{
+    justify-content: center;
+    align-items: center;
+    color: white;
+}
