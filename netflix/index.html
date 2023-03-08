@@ -12,50 +12,44 @@
             <div id="new">
                 NEW!
             </div>
-            <p>
-                Plans now start at $6.99.
-            </p>
-            <div><a href="#">Learn More</a></div>
+            <div>
+                Plans now start at <span id="price">$6.99.</span>
+            </div>
+            <div>
+                <a href="#">Learn More</a>
+            </div>
         </nav>
         <section id="main">
             <section id="header">
                 <img id="logo" src="assets/images/Logonetflix.png" alt="Netflix">
-                <li id="dropdown">
-                    English
-                    <ul> 
-                        <li>Spanish</li>
-                        <li>French</li>
-                        <li>German</li>
-                    </ul>
-                </li>
-                <div id="signIn">
-                Sign In
-                </div>
+                <button class="clearButton">English</button>
+                <button class="redButton">Sign In</button>
             </section>
             <section id="focus">
-                <h2>
+                <h1>
                     Unlimited movies, TV,
                     shows, and more.
-                </h2>
-                <h4>
+                </h1>
+                <h3>
                     Watch anywhere. Cancel anytime.
-                </h4>
+                </h3>
                 <h5>
                     Ready to watch? Enter your email to create or restart your membership.
                 </h5>
-                <div id="textInput">
+                <form id="input">
                     <input
                         id="emailInput"
-                        type="text"
+                        type="email"
                         name="email"
                         placeholder="Email address"
                     >
                     <input 
+                        class="redButton"
                         id="getStarted"
                         type="submit"
                         value="Get Started"
                     >
-                </div>
+                </form>
             </section>
         </section>
     </body>
