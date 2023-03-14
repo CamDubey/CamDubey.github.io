@@ -4,12 +4,14 @@ body{
 }
 
 #main {
+    padding: 18px;
     background-image: 
         linear-gradient(to top, #050714, rgba(255,0,0,0)),
         url(../assets/images/backgroundLarge.jpg);
     color: white;
     background-position: center center;
     background-size: cover;
+    object-fit: cover;
     position: relative;
 }
 
@@ -132,11 +134,13 @@ h6 {
     text-decoration: none;
     font-size: 12px;
     font-weight: normal;
+    margin: 6px;
 }
 
 #footer div {
     font-size: 12px;
     font-weight: normal;
+    margin: 12px;
 }
 
 @media screen and (max-width: 480px) {
@@ -147,9 +151,14 @@ h6 {
     }
 
     .blueButton {
+        display: flex;
         width: 200px;
+        font-size: 10px;
+        margin: 12px;
     }
     .clearButton {
+        display: flex;
+        margin: 12px;
         width: 200px;
     }
 }
